@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#back{
+    width: 100%;
+    height:100vh;
+}
+
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#workingarea{
+    position: relative;
+    margin:0 auto ;
+    width: 85%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nleft , #nright{
+    display: flex;
+    align-items: center;
+    gap:60px;
+}
+
+#nleft a, #nright a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    font-family: "gilroy";
+}
+
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#heroleft{
+    min-width: 50%;
+}
+
+#heroleft .elem{
+    height: 9vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1{
+    line-height: .9;
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 11vw;
+
+}
+
+#heroright{
+    min-width: 25%;
+    background-color: green;
+
+}
